@@ -1,0 +1,75 @@
+8. A linguagem C tem este nome porque foi a sucessora da linguagem B.
+Verdadeiro (Resposta Correta)
+Falso
+9. Em C, variáveis com nomes abc e Abc representam a mesma variável .
+Verdadeiro
+Falso (Resposta Correta)
+
+
+10. O programa
+
+#include <stdio.h>
+main()
+{
+    int x;
+    scanf("%d",&x);
+    printf("%d",x);
+}
+Lê uma variável pelo teclado e a imprime na tela
+Verdadeiro (Resposta Correta)
+Falso
+
+
+11. A instrução #include <stdio.h> no programa anterior é colocada para que possamos utilizar as funções scanf e
+printf
+Verdadeiro (Resposta Correta)
+Falso
+
+
+12. Os comentários na linguagem C só podem ter uma linha de comprimento
+Verdadeiro
+Falso (Resposta Correta)
+
+
+13. Sendo i uma variável inteira, a seguinte chamada a scanf é válida: scanf("%d", i);
+Verdadeiro
+Falso (Resposta Correta)
+ 
+
+14. O que faz o seguinte programa em C?
+
+#include <stdio.h>
+main()
+{
+int i =2;
+printf ("\n O valor de i = %d ", i);
+}
+a) Nada
+b) Imprime: O valor de i = 2 (Resposta Correta)
+c) Imprime: \n O valor de i = %d
+d) Pula para a próxima linha e imprime: O valor de i = 2
+
+15. O comando printf ("%s%d%%","Juros de ",10); imprime:
+
+a) Juros de 10% (Resposta Correta)
+b) %s%d%% Juros de 10
+c) % Juros de 10
+d) 10 Juros de
+e) Nenhuma das anteriores
+
+
+16. Para a=1, b=2, c=3, d=4, calcule o valor das expressões a seguir:
+b += a + c; Resposta: b = 6
+b *= d = c + 20; Resposta: b = 138
+a += b += c += 5; Resposta: a = 15
+a == b Resposta: False
+
+
+17. Qual a saída do programa ?
+int a = 6, b = 5;
+a = b++;
+if ( a = b)
+b += a + 1;
+printf ("%d", a - b);
+
+Resposta: A saída será -8
